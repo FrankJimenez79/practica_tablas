@@ -1,0 +1,161 @@
+/*  Ejercico 1 */
+
+table.ejemplo1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-spacing: 0;
+  margin: auto;
+}
+
+table.ejemplo1 th,
+table.ejemplo1 td {
+  padding: 20px 50px;
+  text-align: center;
+}
+
+table.ejemplo1 thead {
+  background-color: black;
+  color: white;
+  font-weight: normal;
+}
+
+table.ejemplo1 tbody tr:nth-of-type(odd) {
+  background-color: rgb(173, 167, 167);
+}
+
+/* Ejercicio 2 */
+
+table.ejemplo2 {
+  font-family: "Comic Neue";
+  border-spacing: 0;
+  font-size: 20px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+table.ejemplo2 th,
+table.ejemplo2 td {
+  padding: 20px 30px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+
+table.ejemplo2 thead {
+  background-color: rgb(67, 150, 123);
+  color: white;
+}
+
+table.ejemplo2 tr:nth-of-type(2) {
+  color: rgb(67, 150, 123);
+  font-weight: bold;
+}
+
+table.ejemplo2 tr:nth-of-type(3) td {
+  border-bottom: 4px solid rgb(67, 150, 123);
+}
+
+table.ejemplo2 thead th:nth-of-type(1) {
+  border-top-left-radius: 15px;
+}
+
+table.ejemplo2 thead th:nth-of-type(4) {
+  border-top-right-radius: 15px;
+}
+
+/*  Ejercicio 3 */
+
+table.ejemplo3 {
+  font-family: "Comic Neue";
+  margin: auto;
+  font-size: 30px;
+  border-spacing: 0;
+  border: 2px solid black;
+}
+
+table.ejemplo3 td,
+th {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+table.ejemplo3 thead {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+table.ejemplo3 tbody tr:nth-child(even) {
+  background-color: rgb(219, 215, 215);
+}
+
+table.ejemplo3 tbody tr:nth-child(odd) th {
+  background-color: rgb(63, 101, 197);
+  color: white;
+}
+
+table.ejemplo3 tbody tr:nth-child(even) th {
+  background-color: rgb(47, 84, 197);
+  color: white;
+}
+
+table.ejemplo3 td.resalted {
+  background-color: rgb(249, 217, 73);
+  font-weight: bold;
+}
+
+table.ejemplo3 caption {
+  padding: 20px;
+  text-align: left;
+  font-size: 40px;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+/*  Ejercicio 4 */
+
+table.ejemplo4 {
+  font-family: "Comic Neue";
+  margin: auto;
+}
+
+table.ejemplo4 th,
+td {
+  padding: 20px 50px;
+}
+
+table.ejemplo4 thead th {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+table.ejemplo4 tbody tr:nth-child(odd) {
+  background-color: rgb(250, 248, 248);
+}
+
+table.ejemplo4 a.bottom {
+  background-color: gray;
+  color: black;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+
+table.ejemplo4 a.bottom.progress {
+  background-color: rgb(31, 185, 31);
+  color: white;
+  font-weight: bold;
+}
+
+table.ejemplo4 a.bottom.open {
+  background-color: rgb(247, 224, 19);
+  color: black;
+  font-weight: bold;
+}
+
+table.ejemplo4 a.bottom.hold {
+  background-color: rgb(247, 19, 19);
+  color: white;
+  font-weight: bold;
+}
+
+table.ejemplo4 th {
+  text-align: left;
+}
