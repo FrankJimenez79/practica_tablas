@@ -59,7 +59,9 @@ Se apoya en herramientas modernas como **HTML5 Boilerplate** y se organiza media
 ## 🧑‍💻 Autor
 
 **Frank Jiménez Barragán**  
-🔗 [LinkedIn](#)  
+🔗 [LinkedIn](www.linkedin.com/in/frank-jimenez-barragan-584782352
+
+)  
 📂 [GitHub](https://github.com/FrankJimenez79)
 
 ## 📝 Licencia
