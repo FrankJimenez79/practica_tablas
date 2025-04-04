@@ -159,3 +159,74 @@ table.ejemplo4 a.bottom.hold {
 table.ejemplo4 th {
   text-align: left;
 }
+
+/*  Ejercicio 5 */
+
+table.ejemplo5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(187, 183, 183);
+  background-color: black;
+  border-spacing: 0;
+  margin: auto;
+}
+
+table.ejemplo5 thead th {
+  color: white;
+}
+
+table.ejemplo5 tbody tr {
+  background-color: rgb(37, 37, 42);
+}
+
+table.ejemplo5 tbody tr td p:nth-of-type(2) {
+  font-size: 15px;
+  color: white;
+}
+
+table.ejemplo5 tbody tr td:nth-child(2) {
+  color: white;
+}
+
+/*  Ejercicio 6*/
+
+table.ejemplo6 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  border-spacing: 0;
+  font-size: 12px;
+}
+
+table.ejemplo6 th,
+td {
+  padding: 25px 50px;
+  text-align: center;
+}
+
+table.ejemplo6 thead {
+  background-color: rgb(95, 19, 239);
+  color: white;
+  font-weight: bold;
+}
+
+table.ejemplo6 tbody th {
+  background-color: rgb(233, 235, 247);
+}
+
+table.ejemplo6 tbody tr td:nth-child(odd) {
+  background-color: rgb(244, 246, 251);
+}
+
+table.ejemplo6 a {
+  background-color: rgb(95, 19, 239);
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+table.ejemplo6 caption {
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
